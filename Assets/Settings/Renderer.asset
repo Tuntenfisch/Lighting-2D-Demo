@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7739183737938847630
+--- !u!114 &-1381230721396216021
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lighting2DRendererFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  m_shadowResolution: 2048
+  m_shadowResolution: 1024
   m_shadowCasterLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -35,8 +35,8 @@ MonoBehaviour:
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
   m_RendererFeatures:
-  - {fileID: -7739183737938847630}
-  m_RendererFeatureMap: 72d8acf064e59894
+  - {fileID: -1381230721396216021}
+  m_RendererFeatureMap: 2b6f521afae1d4ec
   m_UseNativeRenderPass: 0
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 1, z: 0}
