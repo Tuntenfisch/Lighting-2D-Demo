@@ -1,6 +1,26 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1381230721396216021
+--- !u!114 &-8257676603286005528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcfefb9d674b3d740a0f376cb63044ae, type: 3}
+  m_Name: Lighting2DRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  m_shadowResolution: 2048
+  m_shadowCasterLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  m_renderShadowCastersShader: {fileID: 4800000, guid: d03be779b0490114c822988da5d5c9cd, type: 3}
+  m_renderShadowMapShader: {fileID: 4800000, guid: 17756c77596debf4384fbf41d8e25ae9, type: 3}
+  m_renderLightShader: {fileID: 4800000, guid: 67992cddb3299b64c82ff753a9fc86c9, type: 3}
+--- !u!114 &-7739183737938847630
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,11 +35,46 @@ MonoBehaviour:
   m_Active: 1
   m_shadowResolution: 1024
   m_shadowCasterLayer:
-    serializedVersion: 2
     m_Bits: 8
   m_renderShadowCastersShader: {fileID: 4800000, guid: d03be779b0490114c822988da5d5c9cd, type: 3}
   m_renderShadowMapShader: {fileID: 4800000, guid: 17756c77596debf4384fbf41d8e25ae9, type: 3}
-  m_renderShadowsShader: {fileID: 4800000, guid: 67992cddb3299b64c82ff753a9fc86c9, type: 3}
+  m_renderLightShader: {fileID: 4800000, guid: 67992cddb3299b64c82ff753a9fc86c9, type: 3}
+--- !u!114 &-6985817595844288809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 859257b2eda2a6741841f8f77869bfa5, type: 3}
+  m_Name: RendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  m_shadowResolution: 4096
+  m_shadowCasterLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  m_renderShadowMapShader: {fileID: 4800000, guid: 17756c77596debf4384fbf41d8e25ae9, type: 3}
+--- !u!114 &-4237409241353568855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 859257b2eda2a6741841f8f77869bfa5, type: 3}
+  m_Name: RendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  m_shadowResolution: 4096
+  m_shadowCasterLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  m_renderShadowMapShader: {fileID: 4800000, guid: 17756c77596debf4384fbf41d8e25ae9, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,8 +90,8 @@ MonoBehaviour:
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
   m_RendererFeatures:
-  - {fileID: -1381230721396216021}
-  m_RendererFeatureMap: 2b6f521afae1d4ec
+  - {fileID: -6985817595844288809}
+  m_RendererFeatureMap: d71e07b6e8630d9f
   m_UseNativeRenderPass: 0
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 1, z: 0}
