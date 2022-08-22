@@ -1,4 +1,4 @@
-https://user-images.githubusercontent.com/11965324/185766388-35ec5838-a3ab-4321-8be7-57236061b57d.mp4
+https://user-images.githubusercontent.com/11965324/185966137-e95565a3-5061-4575-b98e-f08dbf097329.mp4
 
 # Lighting 2D Demo
 
